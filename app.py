@@ -29,7 +29,7 @@ def main_page():
             input_text = st.text_input('Ingrese algún texto')
 
             payload = json.dumps({  
-                "key":  "mIXQEq3XZV77gxELCZA8JbUEVwHzJNjbe45tJBN5ZGEbcfqPG15SS9AWo9gp",  
+                "key":  "your_api_key",  
                 "model_id":  "juggernaut-xl-v5",  
                 "prompt":  input_text,  
                 "negative_prompt":  "painting, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, deformed, ugly, blurry, bad anatomy, bad proportions, extra limbs, cloned face, skinny, glitchy, double torso, extra arms, extra hands, mangled fingers, missing lips, ugly face, distorted face, extra legs, anime",  
